@@ -64,6 +64,7 @@ create table kontak_pelanggan(
 	foreign key (kode_pelanggan) references pelanggan(kode_pelanggan)
 );
 
-
+alter table movie 
+modify tahun_release year(4);
 
 show tables;
