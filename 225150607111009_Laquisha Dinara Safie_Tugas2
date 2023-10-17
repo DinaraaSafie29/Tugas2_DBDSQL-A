@@ -16,7 +16,8 @@ create table transaksi(
 	tanggal_wajib_kembali date,
 	tanggal_realisasi_kembali date,
 	primary key (kode_dvd, kode_pelanggan, tanggal_sewa),
-	foreign key (kode_dvd) references movie(kode_dvd)
+	foreign key (kode_dvd) references movie(kode_dvd),
+	foreign key (kode_pelanggan) references pelanggan(kode_pelanggan),
 );
 
 create table pelanggan (
