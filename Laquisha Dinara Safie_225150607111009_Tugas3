@@ -79,12 +79,12 @@ insert into seleksi_masuk values
 
 insert into mahasiswa values
 ('155150400',1,211,'Johnny',2015,'1997-1-1','Surabaya','W'),
-('155150401',2,212,'Jaehyun',2015,'1997-10-2','Malang','P');
+('155150401',2,212,'Yeji',2015,'1997-10-2','Malang','P');
 
 update mahasiswa set nama = 'Johnny' where nama = 'Suh';
 
 select * from mahasiswa;
 
-update mahasiswa set nama = 'Jung' where nama ='Jaehyun';
+update mahasiswa set nama = 'Hwang' where nama ='Yeji';
 
 select * from mahasiswa ;
